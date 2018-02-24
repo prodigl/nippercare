@@ -3,7 +3,7 @@
     "lang": "en",
     "name": "Nipper Care",
     "scope": "/",
-    "display": "NipperCare",
+    "display": "fullscreen",
     "start_url": ".",
     "short_name": "NipperCare",
     "theme_color": "#e6e6f2",
