@@ -1,13 +1,13 @@
 {
     "dir": "ltr",
     "lang": "en",
-    "name": "Aione Framework",
+    "name": "Nipper Care",
     "scope": "/",
-    "display": "fullscreen",
+    "display": "NipperCare",
     "start_url": ".",
-    "short_name": "Aione",
+    "short_name": "NipperCare",
     "theme_color": "#e6e6f2",
-    "description": "Aione framework code playground to edit html code and live preview the output",
+    "description": "Child Immunization Reminder Application",
     "orientation": "any",
     "background_color": "#168dc5",
     "related_applications": [],
@@ -19,52 +19,47 @@
           "type": "image/png"  
         },
         {
-            "src": "/assets/images/mstile-144x144.png",
+            "src": "/assets/images/icon-144x144.png",
             "type": "image/png",
             "sizes": "144x144"
         },
         {
-            "src": "/assets/images/apple-touch-icon-57x57.png",
+            "src": "/assets/images/icon-72x72.png",
             "sizes": "57x57",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/apple-touch-icon-114x114.png",
+            "src": "/assets/images/icon-114x114.png",
             "sizes": "114x114",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/apple-touch-icon-72x72.png",
+            "src": "/assets/images/icon-72x72.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/apple-touch-icon-144x144.png",
+            "src": "/assets/images/icon-144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/apple-touch-icon-60x60.png",
+            "src": "/assets/images/icon-72x72.png",
             "sizes": "60x60",
             "type": "image/png"
-        },
+        }
         {
-            "src": "/assets/images/apple-touch-icon-120x120.png",
-            "sizes": "120x120",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/apple-touch-icon-76x76.png",
+            "src": "/assets/images/icon-72x72.png",
             "sizes": "76x76",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/apple-touch-icon-152x152.png",
+            "src": "/assets/images/icon-144x144.png",
             "sizes": "152x152",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/favicon-196x196.png",
+            "src": "/assets/images/icon-512x512.png",
             "sizes": "196x196",
             "type": "image/png"
         },
@@ -79,13 +74,8 @@
             "type": "image/png"
         },
         {
-            "src": "/assets/images/favicon-16x16.png",
+            "src": "/assets/images/favicon-72x72.png",
             "sizes": "16x16",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/favicon-128.png",
-            "sizes": "128x128",
             "type": "image/png"
         }
     ]
