@@ -36,7 +36,9 @@ $(document).ready(function() {
             setTimeout(function(){
                 $.each(childsForVac, function(key,val){
                     $('.data-table tbody tr').each(function(){
-
+                        if($(this).find('.ch-name').text() == val.child){
+                            $(this).addClass('bg-red').css('background-color','#ef9a9a').attr('title',val.vac+' is comming!');
+                        }
                     })
                 });
             },500)
@@ -117,7 +119,7 @@ $(document).ready(function() {
                 html += `
                         <tr>
                             <td>`+index+`</td>
-                            <td>`+value.child_name+`</td>
+                            <td class="ch-name">`+value.child_name+`</td>
                             <td>`+value.child_birth+`</td>
                         </tr>`
                 ;
