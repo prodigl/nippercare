@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>NippperCare</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="identifier-url" content="https://aioneframework.com/" />
+	<meta name="title" content="Aione Framework | Responsive CSS Framework" />
+	<meta name="description" content="Aione framework is responsive css framework to make responsive websites, web applications and mobile applications using 100 coulmn grid system" />
+	<meta name="abstract" content="all in one Responsive CSS Framework" />
+	<meta name="keywords" content="immuni" />
+	<meta name="author" content="OXO IT SOLUTIONS PRIVATE LIMITED" />
+	<meta name="language" content="EN" />
+	<meta name="copyright" content="©2018 OXO IT SOLUTIONS PRIVATE LIMITED" />
+	<meta name="robots" content="All" />
+	<meta name="revisit-after" content="10" />
+	<meta name="application-name" content="Aione Framework">
+	<meta name="theme-color" content="#168dc5"/>
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.aioneframework.com/assets/css/aione.min.css" >
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400">
+	<!-- Theme Styles and Scripts-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+	<!-- Progressive Web Application-->
+	<link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+	<div id="aione_wrapper" class="aione-wrapper page-home layout-header-top aione-layout-wide aione-theme-arcane">
+		<div class="wrapper">
+			<div id="aione_header" class="aione-header light load-template">
+			</div><!-- #aione-header -->
+
+			<div id="aione_main" class="aione-main fullwidth">
+				<div class="wrapper">
+					<div id="aione_content" class="aione-content">
+						<div class="wrapper">
+							<div id="aione_page_content" class="aione-page-content">
+								<div class="wrapper">
+									<section id="intro" class="intro">
+										<div class="intro-content aione-align-center animated fadeInUpBig">
+											<!-- <h1 class="m-0 font-size-30"><span class="primary-color">Aione</span> <span class="secondary-color">Framework</span> is <span class="font-weight-900">ALL-IN-ONE</span> CSS Framework
+											</h1> -->
+											<div class="aione-table ph-10p mb-50">
+												<table class="data-table">
+													<thead>
+														<tr>
+															<th>Sr no</th>
+															<th>Name</th>
+															<th>Birth</th>
+															
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td></td>
+															<td></td>
+															<td></td>
+															
+														</tr>
+													</tbody>
+												</table>
+											</div>
+                                            <button class="modal-trigger">Cick Here To Add</button>
+											
+											
+												<div id="modal" class="modal modal-fixed-footer">
+													<div class="bg-color "></div>
+													<div class="modal-header ">
+														<div class="p-10 aione-align-left white">
+															<div class="font-size-20">Enter Child Details</div>
+															<a href="javascript:;" name="closeModel" onclick="close()" id="closemodal" class="close-dialog close-model-button" style="color: white"><i class="fa fa-close"></i></a>	
+														</div>
+														
+													</div>
+													<div class="modal-content aione-align-left">
+														<div class="field-wrapper">
+															<div id="field_label_name" class="field-label">
+																<label for="input_name">
+																	<h4 class="field-title">Child Name <span class="red">*</span></h4>
+																</label>
+															</div>
+															<div class="field field-type-text">
+																<input type="text" name="child-name" class="child-name">																
+															</div>
+														</div>
+														<div class="field-wrapper">
+															<div id="field_label_name" class="field-label">
+																<label for="input_name">
+																	<h4 class="field-title">Child Birth <span class="red">*</span></h4>
+																</label>
+															</div>
+															<div class="field field-type-text">
+																<input type="date" name="child-birth" class="child-birth">
+															</div>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<button class="save-child">Save</button>
+													</div>
+												</div>
+												
+											<style type="text/css">
+												
+												.modal{
+													top: 15%;	
+												}
+												@media only screen and (max-width: 700px) {
+												    .modal {
+												        top: 0;
+												        left: 0;
+												        bottom: 0;
+												        right: 0;
+												        width: 100%;
+													    margin: 0;
+													    max-height: inherit;
+
+												    }
+												    .modal.modal-fixed-footer{
+												    	height: 100%
+												    }
+												}
+
+											</style>	
+															
+										</div>
+									</section>
+								</div>
+							</div>
+						</div><!-- .wrapper -->
+					</div><!-- .aione-content -->
+				</div><!-- .wrapper -->
+			</div>
+			<div id="aione_footer" class="aione-footer dark load-template">	
+			</div><!-- .aione-footer -->
+			<div id="aione_copyright" class="aione-copyright dark load-template">
+			</div><!-- .aione-copyright -->		
+		</div>
+	</div>
+	
+<!-- Core-->
+<script type="text/javascript" src="https://cdn.aioneframework.com/assets/js/vendor.min.js"></script>
+<script type="text/javascript" src="https://cdn.aioneframework.com/assets/js/aione.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+<script type="text/javascript">
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('assets/js/serviceworker.js', { scope: '/' }).then(function(reg) {
+    
+    if(reg.installing) {
+      //console.log('Service worker installing');
+    } else if(reg.waiting) {
+      //console.log('Service worker installed');
+    } else if(reg.active) {
+      //console.log('Service worker active');
+    }
+    
+  }).catch(function(error) {
+    //console.log('Registration failed with ' + error);
+  });
+}
+
+
+</script>
+</body>
+</html>

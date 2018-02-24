@@ -1,0 +1,79 @@
+.tabs.tabs-transparent .tab a {
+  color: #333
+}
+.page-home .aione-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: transparent
+}
+.aione-nav.horizontal {
+  border-bottom: none
+}
+.aione-nav ul li a {
+  padding: 0 12px;
+  font-size: 18px
+}
+.aione-main {
+  padding-top: 0
+}
+.aione-page-content {
+  margin: 0;
+  min-height: 200px
+}
+.aione-footer {
+  margin: 0;
+  border-top: none
+}
+.aione-footer.dark {
+  background-color: #23282d
+}
+.aione-copyright {
+  margin: 0;
+  border-top: none
+}
+.aione-copyright.dark {
+  background-color: #121519
+}
+.intro {
+  min-height: 450px;
+  height: 100vh;
+  background-color: #e6e6f2;
+  background-image: url(../images/aione-framework-website-background.jpg);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat
+}
+.intro-content {
+  position: absolute;
+  top: 34%;
+  left: 5%;
+  width: 60%;
+  z-index: 9999;
+  background-color: transparent
+}
+.oxo-color {
+  color: #168dc5
+}
+.oxo-color:hover {
+  color: #1570a6
+}
+.primary-color {
+  color: #1570a6
+}
+.secondary-color {
+  color: #414043
+}
+.section-ilivedesign {
+  background-image: url(../images/oxo_bg.svg);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-color: #fff
+}
+.section-ilivedesign .aione-icon.animated {
+  display: inline-block;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite
+}
